@@ -80,7 +80,7 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 		        </a>
-				<a class="brand" href="<?php echo $this->createAbsoluteUrl('//'); ?>" style="color:white;"><strong><?php echo CHtml::encode(Yii::app()->name); ?></strong></a>
+				<a class="brand" href="<?php echo $this->createAbsoluteUrl('//'); ?>" style="color:black;"><strong><?php echo CHtml::encode(Yii::app()->name); ?></strong></a>
 				<div class="nav-collapse collapse">				
 				<?php 
 					$items = array();
@@ -143,7 +143,8 @@
 					'htmlOptions'=>array(
 						'class'=>'nav pull-right',
 					),
-				)); ?>				
+				)); ?>		
+				</div>		
 			</div>
 		</div>
 	</div>

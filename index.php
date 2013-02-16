@@ -1,7 +1,11 @@
 <?php
+if(dirname(__FILE__) == '/Users/rzamarripa/Dropbox/sites/htdocs/jap')
+	$yii=dirname(__FILE__).'/../../yii/framework/yii.php';
+else
+	$yii=dirname(__FILE__).'/../../../yii/framework/yii.php';
+// change the following paths if necessary+
 
-// change the following paths if necessary
-$yii=dirname(__FILE__).'/../../../yii/framework/yii.php';
+
 $config=dirname(__FILE__).'/protected/config/main.php';
 
 // remove the following lines when in production mode

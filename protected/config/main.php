@@ -1,10 +1,9 @@
 <?php
+if(dirname(__FILE__) == '/Users/rzamarripa/Dropbox/sites/htdocs/jap/protected/config')
+	$dbString = '72.3.204.215';
+else
+	$dbString = 'mysql51-019.wc2.dfw1.stabletransit.com';
 
-// uncomment the following to define a path alias
-// Yii::setPathOfAlias('local','path/to/local-folder');
-
-// This is the main Web application configuration. Any writable
-// CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'JAP Sinaloa',
@@ -70,12 +69,21 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
+			'connectionString' => 'mysql:host=' . $dbString . ';dbname=517226_sistemajap',
+			'emulatePrepare' => true,
+			'username' => '517226_sistemaj',
+			'password' => 'Zamarripa83',
+			'charset' => 'utf8',
+		),
+		/*
+		'db'=>array(
 			'connectionString' => 'mysql:host=mysql51-019.wc2.dfw1.stabletransit.com;dbname=517226_sistemajap',
 			'emulatePrepare' => true,
 			'username' => '517226_sistemaj',
 			'password' => 'Zamarripa83',
 			'charset' => 'utf8',
 		),
+		*/
 		/*
 		'db'=>array(
 			'connectionString' => 'mysql:host=127.0.0.1;dbname=jap',

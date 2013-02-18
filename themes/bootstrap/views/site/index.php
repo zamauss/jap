@@ -6,7 +6,7 @@ $this->pageTitle='Jap Sinaloa / Iniciar Sesión';
 	<h1>Bienvenido</h1>
 	<br/>
 	
-	<p>Este sistema nos ayudará a realizar1:</p>
+	<p>Este sistema nos ayudará a realizar:</p>
 	<ul>
 		<li>Informe de actividades.</li>
 		<li>Programa de trabajo.</li>
@@ -15,7 +15,7 @@ $this->pageTitle='Jap Sinaloa / Iniciar Sesión';
 	<br/>	
 	<div class="alert alert-info">
 		<div style="text-align:center;">
-			  <h2 class="alert-info"><strong>¡Cumplir,</strong> <small>habla bien de tí!</small></h2>
+			  <h2 class="alert-info"><strong>¡Cumplir,</strong> <small>habla bien de ti!</small></h2>
 		</div>
 	</div>
 	<a class="btn btn-info btn-large" href="http://jap.uss.mx/index.php/site/login">

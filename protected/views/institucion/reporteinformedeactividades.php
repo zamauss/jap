@@ -439,6 +439,7 @@
 															$donativo['fundacionesExtrajeras'] +
 															$donativo['fondosGubernamentalesMunicipal'] +
 															$donativo['fondosGubernamentalesEstatal'] +
+															$donativo['especie'] +
 															$donativo['fondosGubernamentalesFederal'];
 								echo '$' . number_format($totalIngresoDonativo);
 							?>

@@ -235,6 +235,7 @@ $gastosOperativos = GastoOperativo::model()->find('institucion_aid = ' . $_GET['
 														$donativo['fundacionesExtrajeras'] +
 														$donativo['fondosGubernamentalesMunicipal'] +
 														$donativo['fondosGubernamentalesEstatal'] +
+														$donativo['especie'] +
 														$donativo['fondosGubernamentalesFederal'];
 							echo '$' . number_format($totalIngresoDonativo);
 						?>

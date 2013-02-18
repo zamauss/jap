@@ -6,7 +6,7 @@ $this->pageTitle='Jap Sinaloa / Iniciar Sesión';
 	<h1>Bienvenido</h1>
 	<br/>
 	
-	<p>Este sistema nos ayudará a realizar:</p>
+	<p>Este sistema nos ayudará a realizar11:</p>
 	<ul>
 		<li>Informe de actividades.</li>
 		<li>Programa de trabajo.</li>

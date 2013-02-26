@@ -18,9 +18,7 @@ $this->pageTitle='Jap Sinaloa / Iniciar Sesión';
 			  <h2 class="alert-info"><strong>¡Cumplir,</strong> <small>habla bien de ti!</small></h2>
 		</div>
 	</div>
-	<a class="btn btn-info btn-large" href="http://jap.uss.mx/index.php/site/login">
-      Iniciar Sesión
-    </a>
+	<?php echo CHtml::button('Iniciar Sesión', array('submit' => array('site/login'), 'class' => 'btn btn-info btn-large')); ?>
     
     <br/>
     <br/>

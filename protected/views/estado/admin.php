@@ -11,7 +11,7 @@ $this->menu=array(
 	array('label'=>'Listar '.Estado::classNameLabel(), 'url'=>array('index')),
 	array('label'=>'Crear '.Estado::classNameLabel(), 'url'=>array('create')),
 );
-
+1
 Yii::app()->clientScript->registerScript('search', "
 $('.search-button').click(function(){
 	$('.search-form').toggle();

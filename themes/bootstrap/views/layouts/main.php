@@ -85,8 +85,7 @@
 				<?php 
 					$items = array();
 					$usuarioActual = Usuario::model()->find('usuario=:x',array(':x'=>Yii::app()->user->name));
-					//echo '<pre>'; print_r($usuarioActual->attributes); echo '</pre>';
-					//exit;
+					
 					if(isset($usuarioActual) && $usuarioActual->tipousuario->nombre == 'Administrador'){
 						$items=	array(
 								array('label'=>'Inicio', 'url'=>array('site/index')),
@@ -134,16 +133,16 @@
 				?>
 
 				<?php 
-				//echo '<pre>'; print_r($usuarioActual->tipoUsuario); echo '</pre>';
+				echo '<pre>'; print_r($usuarioActual->id); echo '</pre>';
 				$this->widget('zii.widgets.CMenu',array(
 					'items'=>array(
-						array('label'=>'Mi Perfil ' . Yii::app()->user->name, 'url'=>array('/usuario/updatePerfil/' . $usuarioActual->id), 'visible'=>!Yii::app()->user->isGuest),
+						array('label'=>'Mi Perfil ' . Yii::app()->user->name, 'url'=>array('/usuario/updatePerfil/'), 'visible'=>!Yii::app()->user->isGuest),
 						array('label'=>'Cerrar Sesión', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest, 'htmlOptions'=>array('class'=>'btn'))
 					),
 					'htmlOptions'=>array(
 						'class'=>'nav pull-right',
 					),
-				)); ?>		
+				));  ?>		
 				</div>		
 			</div>
 		</div>

@@ -5,7 +5,7 @@ $this->pageDescription='';
 $this->breadcrumbs=array(
 	'Cuadro General',
 );
-
+1
 $this->menu=array(
 		array('label'=>'Volver ', 'url'=>array('site/index')),
 		array('label'=>'Gráficas ', 'url'=>array('graficasinstituciones')),
